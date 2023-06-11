@@ -59,18 +59,6 @@ st.markdown(
         align-items: center;
         margin-bottom: 20px;
     }
-
-    .css-b3z5c9 e1ewe7hr10{
-     padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    background: linear-gradient(135deg, #3366ff, #2048ff) !important;
-    color: #ffffff;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    }
-
     </style>
     """,
     unsafe_allow_html=True
@@ -78,15 +66,6 @@ st.markdown(
 
 # Set page title and button
 st.markdown("<h1 class='title'>Stock Trend Prediction</h1>", unsafe_allow_html=True)
-
-
-# Define the URL to redirect to
-home_url = "https://www.youtube.com"
-
-# Display the home button
-if st.button("Home"):
-    # Open the URL in the same tab
-    webbrowser.open(home_url, new=0)
 
 
 
